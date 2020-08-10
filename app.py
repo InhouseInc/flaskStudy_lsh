@@ -9,7 +9,7 @@ def index():
 # def hello():
 #     return 'Hellow World'
 
-# URI파라미터로 프로필 표현
+# URI파라미터로 프로필 표현a
 @app.route('/user/<username>')
 def show_user_profile(username):
     return 'User %s' % username
